@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "domain-checker"
+version = "0.1.0"
+description = ""
+authors = ["Ren Kasiyas <okasiyas@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-whois = "^0.8.0"
+progress = "^1.6"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
